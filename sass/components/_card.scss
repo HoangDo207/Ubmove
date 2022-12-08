@@ -1,0 +1,97 @@
+.card {
+  position: relative;
+  background-color: #fff;
+  &-img {
+    position: relative;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      transition: all 3s ease;
+    }
+  }
+
+  .card-info {
+    position: relative;
+    padding: 16px;
+  }
+
+  .card-utils {
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .card-title {
+    position: relative;
+    font-size: inherit;
+    @include breakHiddenLine(2);
+    margin: 0px;
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .card-synop {
+    font-size: 16px;
+    line-height: 24px;
+    ul {
+      li {
+        & + li {
+          margin-top: 8px;
+        }
+        b {
+          font-family: var(--font-primary-bold);
+          font-weight: inherit;
+        }
+      }
+    }
+  }
+
+  .card-cost {
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    b {
+      font-family: var(--font-primary-bold);
+      font-weight: inherit;
+    }
+  }
+
+  &:hover {
+    .card-title > a {
+      color: var(--clr-secondary) !important;
+    }
+    .card-img img {
+      scale: 1.2;
+      transition: all 3s ease;
+    }
+  }
+
+  &-type-1 {
+    @extend .card;
+    box-shadow: var(--shadow-effect-1);
+    .card-info {
+      padding: 16px 24px 8px;
+    }
+  }
+  &-type-2 {
+    @extend .card;
+    box-shadow: var(--shadow-effect-2);
+    .card-title {
+      @include breakHiddenLine(2, 55px);
+    }
+  }
+  &-type-3 {
+    @extend .card-type-2;
+    .card-title {
+      @include breakHiddenLine(2, 48px);
+    }
+    .card-synop {
+      color: #666666;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.tour {
+  &-code {
+    font-size: 14px;
+    line-height: 15px;
+    color: var(--clr-dark);
+  }
+  &-rate {
+    font-family: var(--font-primary-medium);
+    font-size: 14px;
+    line-height: 15px;
+    color: #999999;
+    .icon {
+      color: #ffca08;
+    }
+    b {
+      color: var(--clr-dark);
+    }
+  }
+}

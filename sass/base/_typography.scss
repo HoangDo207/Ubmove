@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "SVN-Gilroy-Regular";
+  src: url(../../font/SVN-Gilroy/SVN-Gilroy-Regular.otf);
+}
+
+@font-face {
+  font-family: "SVN-Gilroy-Thin";
+  src: url(../../font/SVN-Gilroy/SVN-Gilroy-Thin.otf);
+}
+
+@font-face {
+  font-family: "SVN-Gilroy-Light";
+  src: url(../../font/SVN-Gilroy/SVN-Gilroy-Light.otf);
+}
+
+@font-face {
+  font-family: "SVN-Gilroy-Medium";
+  src: url(../../font/SVN-Gilroy/SVN-Gilroy-Medium.otf);
+}
+
+@font-face {
+  font-family: "SVN-Gilroy-SemiBold";
+  src: url(../../font/SVN-Gilroy/SVN-Gilroy-SemiBold.otf);
+}
+
+@font-face {
+  font-family: "SVN-Gilroy-Bold";
+  src: url(../../font/SVN-Gilroy/SVN-Gilroy-Bold.otf);
+}
+
+@font-face {
+  font-family: "SVN-Gilroy-Black";
+  src: url(../../font/SVN-Gilroy/SVN-Gilroy-Black.otf);
+}
+
+body {
+  font-family: var(--font-primary-regular);
+  color: var(--clr-dark);
+  font-size: 14px;
+  line-height: 24px;
+}
+
+p:last-child {
+  margin-bottom: 0px;
+}
+
+.heading {
+  margin: 0px;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &-primary {
+    font-family: var(--font-primary-bold);
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  &-secondary {
+    font-family: var(--font-primary-semiBold);
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  &-tertiary {
+    font-family: var(--font-primary-semiBold);
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+.caption {
+  font-family: var(--font-primary-semiBold);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.title {
+  font-family: var(--font-primary-regular);
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.paragraph {
+  font-family: var(--font-primary-regular);
+  font-size: 16px;
+  line-height: 24px;
+}

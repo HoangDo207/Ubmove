@@ -1,0 +1,110 @@
+/* ----------- Social Nav ----------- */
+
+.nav {
+  &-sci {
+    display: grid;
+    grid-template-columns: repeat(4, 32px);
+    grid-gap: 8px;
+    padding: 0px;
+    margin: 0px;
+    & > li {
+      list-style: none;
+      & > a {
+        display: grid;
+        place-items: center;
+        width: 32px;
+        height: 32px;
+        border: 1px solid var(--border-color);
+        border-radius: 50%;
+        background-color: transparent;
+        color: var(--color);
+        text-decoration: none;
+        font-size: 10px;
+        &:hover {
+          color: var(--color);
+          border-color: var(--color);
+        }
+      }
+    }
+  }
+}
+
+/* ----------- /.Social Nav ----------- */
+
+/* ----------- Quick Links Nav ----------- */
+.quick-links {
+  position: relative;
+  ul {
+    padding: 0px;
+    margin: 0px;
+    &.menu {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-around;
+      gap: 3.2rem;
+    }
+    li {
+      list-style: none;
+      & > ul li + li {
+        margin-top: 16px;
+      }
+      & > span.noLink {
+        display: block;
+        font-family: var(--font-primary-bold);
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--clr-secondary);
+        margin-bottom: 24px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+      & > a {
+        display: block;
+        color: var(--clr-white);
+        font-size: 16px;
+        line-height: 16px;
+        text-decoration: none;
+      }
+    }
+  }
+}
+/* ----------- /.Quick Links Nav ----------- */
+
+/* ----------- Icons Nav ----------- */
+.nav-icons {
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    li {
+      list-style: none;
+      & + li {
+        margin-top: 8px;
+      }
+      & > a {
+        display: grid;
+        grid-template-columns: 24px 1fr;
+        grid-gap: 8px;
+        padding: 4px 8px;
+        color: #4d4d4d;
+        text-decoration: none;
+        border-left-width: 2px;
+        border-left-style: solid;
+        border-color: transparent;
+        .icon {
+          @include flexCenter;
+        }
+        &.active {
+          background-color: #f2f2f2;
+          border-color: #b3b3b3;
+        }
+        &:hover:not(.active) {
+          @extend .active;
+          border-color: transparent !important;
+        }
+      }
+    }
+  }
+}
+/* ----------- /.Icons Nav ----------- */

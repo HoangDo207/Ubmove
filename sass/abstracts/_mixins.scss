@@ -1,0 +1,22 @@
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-box-align: center;
+}
+
+@mixin breakHiddenLine($line, $height: "inherit") {
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+  height: $height;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

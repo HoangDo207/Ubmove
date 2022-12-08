@@ -1,0 +1,30 @@
+//import file from abstracts
+@import "abstracts/variable";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/utils";
+
+//import file from vendor
+
+//import file from base
+@import "base/reset";
+@import "base/typography";
+
+//import file from layout
+@import "layout/footer";
+@import "layout/header";
+@import "layout/sidebar";
+
+//import file from element
+@import "element/tour";
+
+//import file from components
+@import "components/box";
+@import "components/card";
+@import "components/nav";
+@import "components/form";
+@import "components/table";
+@import "components/badge";
+
+//import file from pages
+@import "pages/home";

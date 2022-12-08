@@ -1,0 +1,47 @@
+:root {
+  //FONT
+  --font-primary-regular: "SVN-Gilroy-Regular";
+  --font-primary-thin: "SVN-Gilroy-Thin";
+  --font-primary-light: "SVN-Gilroy-Light";
+  --font-primary-medium: "SVN-Gilroy-Medium";
+  --font-primary-semiBold: "SVN-Gilroy-SemiBold";
+  --font-primary-bold: "SVN-Gilroy-Bold";
+  --font-primary-black: "SVN-Gilroy-Black";
+
+  //Color
+  --clr-primary: #292929;
+  --clr-secondary: #ffce10;
+  --clr-dark: #191919;
+  --clr-gray: #666666;
+  --clr-gray-light: #eceeea;
+  --clr-white: #fff;
+
+  --clr-success: #1f8b24;
+  --clr-success-light: #d9fadb;
+
+  --clr-processing: #4c8deb;
+  --clr-processing-light: #dbe5f3;
+
+  --clr-warning: #ffab49;
+  --clr-warning-light: #ffedd6;
+
+  --clr-danger: #dc1f26;
+  --clr-danger-light: #fde2e3;
+
+  //Gradient
+  --gradient-effect-1: linear-gradient(
+    180deg,
+    rgba(25, 25, 25, 0) 41.45%,
+    #191919 100%
+  );
+
+  //Shadow
+  --shadow-effect-1: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  --shadow-effect-2: 0px 0px 32px rgba(0, 0, 0, 0.1);
+
+  //spacing global style
+  --spacing: 8px;
+}
+
+//spacing global style
+$spacing: 8px;

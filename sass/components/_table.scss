@@ -1,0 +1,132 @@
+/*------------ Custom Table ------------ */
+.table-wrapper {
+  border: 2px solid #e6e6e6;
+  border-radius: 0px;
+  overflow: hidden;
+}
+
+.table-custom {
+  font-family: var(--font-style-regular);
+  margin-bottom: 0px;
+  color: var(--clr-dark);
+
+  & {
+    thead {
+      tr {
+        td,
+        th {
+          font-family: var(--font-style-bold);
+          border-bottom: 0px !important;
+          padding: 16px 12px;
+          font-size: 16px;
+          line-height: 24px;
+          vertical-align: middle;
+          background-color: #f0f0f0;
+        }
+      }
+    }
+    tbody {
+      tr {
+        th,
+        td {
+          padding: 16px 12px;
+          font-family: var(--font-primary-medium);
+          font-size: 14px;
+          line-height: 16px;
+          vertical-align: middle;
+          border-top: 1px solid #e6e6e6;
+        }
+        &:nth-child(even) {
+          background-color: #f8f8f8;
+        }
+        &:hover {
+          background-color: #f0f3ff;
+        }
+      }
+    }
+  }
+}
+
+.table-bordered {
+  border: 1px solid #cccccc;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border: 1px solid #cccccc;
+}
+
+.table-bordered > thead > tr > td,
+.table-bordered > thead > tr > th {
+  background-color: transparent;
+  border-bottom: solid 2px #cccccc !important;
+}
+
+.table-custom-result {
+  background: #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+  border-collapse: collapse;
+  margin-bottom: 0px;
+}
+
+.table-custom-result > tbody > tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.table-actions {
+  position: relative;
+}
+
+.table-actions > .btn {
+  display: inline-block;
+  font-size: 24px !important;
+  line-height: 24px;
+  color: #999999;
+  padding: 0px !important;
+}
+
+.table-actions > .btn + .btn {
+  margin-left: 8px;
+}
+
+.table-actions > a:hover {
+  background-color: #e5e1e1e3;
+}
+
+.table-custom .mark-checkbox {
+  padding-left: 0px;
+  height: auto;
+}
+.table-custom .mark-checkbox .fake-checked {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+  margin-top: 0;
+}
+
+.table-footer {
+  padding: 12px 16px;
+  border-top: 1px solid #dbdfe7;
+}
+.table-footer::before {
+  content: "";
+  display: table;
+}
+
+.table-footer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.table-multi-actions {
+  float: left;
+}
+
+/*------------ /.Custom Table ------------ */
