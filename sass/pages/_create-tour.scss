@@ -1,0 +1,104 @@
+.um-create-tour {
+  padding: 40px 0 80px;
+  &-info {
+    b {
+      font-family: var(--font-primary-semiBold) !important;
+    }
+    .mark-checkbox {
+      label {
+        font-family: var(--font-primary-medium) !important;
+      }
+    }
+    .box {
+      & + .box {
+        margin-top: 32px;
+      }
+      &-body {
+        .row {
+          margin-left: -8px;
+          margin-right: -8px;
+          & > div[class^="col-"] {
+            padding-left: 8px;
+            padding-right: 8px;
+          }
+        }
+        & > h3 {
+          display: block;
+          font-family: var(--font-primary-bold);
+          font-size: 24px;
+          line-height: 32px;
+          color: #191919;
+          margin-bottom: 16px;
+        }
+        .form-group {
+          label {
+            font-family: var(--font-primary-semiBold);
+            font-size: 16px;
+            line-height: 24px;
+            color: #333333;
+            span {
+              font-family: var(--font-primary-light);
+              color: #666666;
+              font-size: 14px;
+              font-weight: unset !important;
+            }
+          }
+          .input-group {
+            background: #f7f7f7;
+            border: 1px solid #e6e6e6;
+            border-radius: 0px;
+          }
+          .custom-drop {
+            width: 158px;
+            padding: 4px 8px !important;
+            margin-top: 8px;
+            color: var(--clr-secondary);
+            label {
+              padding: 0px;
+              margin: 0px;
+              i {
+                color: var(--clr-secondary);
+              }
+            }
+            ul {
+              display: flex;
+              flex-direction: column-reverse;
+              li {
+                a {
+                  color: var(--clr-secondary);
+                  text-decoration: none;
+                }
+              }
+            }
+          }
+        }
+        .crate-info-block {
+          .destination-list {
+            height: 122px;
+            &-content {
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              grid-gap: 16px;
+            }
+          }
+          .activate-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 16px;
+          }
+          .transport-list {
+            @extend .activate-list;
+          }
+          .living-list {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 16px;
+          }
+        }
+      }
+    }
+  }
+  .medium-row {
+    width: 50%;
+  }
+}

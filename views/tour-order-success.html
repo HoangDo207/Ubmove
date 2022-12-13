@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>U Move</title>
+    <!-- bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <!-- google icon css -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- owl carousel css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css"
+    />
+    <!-- light slider css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css"
+    />
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- magnific popup css -->
+    <link
+      rel="stylesheet"
+      href="../../libs/magnific-popup/magnific-popup.css"
+    />
+    <!-- font-awesome css -->
+    <link rel="stylesheet" href="../../libs/font-awesome/css/all.css" />
+    <!-- animate css -->
+    <link rel="stylesheet " href="../../libs/animate-css/animate.css" />
+    <!-- animate css -->
+    <link rel="stylesheet " href="../../libs/select2/select2.min.css" />
+    <!-- app css -->
+    <link rel="stylesheet" href="../../css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper-app">
+      <header class="header" id="header">
+        <div class="header-container">
+          <div class="header-inner">
+            <div class="header-top">
+              <div class="container">
+                <div class="inner">
+                  <div class="header-top-left">
+                    <ul class="custom-nav">
+                      <li>
+                        <a href="#">Khóa huấn luyện</a>
+                      </li>
+                      <li>
+                        <a href="#">Sự kiện</a>
+                      </li>
+                      <li>
+                        <a href="#">Blog</a>
+                      </li>
+                      <li>
+                        <a href="#">Liên hệ</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="header-top-right">
+                    <div class="header-language">
+                      <div class="dropdown">
+                        <div
+                          class="toggle-language"
+                          id="dropdownLanguageButton"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                        >
+                          <img
+                            src="../img/flag-vn.png"
+                            class="img-responsive"
+                            alt=""
+                          />
+                          <i class="fa-light fa-angle-down"></i>
+                        </div>
+                        <div
+                          class="dropdown-menu"
+                          aria-labelledby="dropdownLanguageButton"
+                        >
+                          <a class="dropdown-item" href="#"
+                            ><img src="../img/flag-vn.png" alt=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="header-main">
+              <div class="container">
+                <div class="inner">
+                  <div class="header-logo">
+                    <a href="./index.html">
+                      <h1>
+                        <img
+                          src="../img/logo.png"
+                          class="img-responsive"
+                          width="78"
+                          alt=""
+                        />
+                      </h1>
+                    </a>
+                  </div>
+
+                  <div class="header-search">
+                    <form action="#">
+                      <div>
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Tìm kiếm cuộc hành trình của bạn"
+                          />
+                        </div>
+
+                        <div class="form-actions">
+                          <button class="btn">
+                            <i class="fa-light fa-magnifying-glass"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                  <div class="header-utils">
+                    <div class="hotline">
+                      <a href="#">
+                        <img
+                          src="../img/icons/phone-calling-black.svg"
+                          alt=""
+                        />
+                        <span>096 929 223 - 0979 800 588</span>
+                      </a>
+                    </div>
+
+                    <div class="clr-gray-light">|</div>
+
+                    <div class="block-user">
+                      <a href="#"
+                        ><i class="fa-light fa-user"></i>
+                        <span>Đăng nhập</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="header-navigator">
+              <div class="container">
+                <div class="inner">
+                  <ul class="menu">
+                    <li>
+                      <a href="./locations.html">Địa điểm</a>
+                    </li>
+                    <li>
+                      <a href="./activate.html">Hoạt động</a>
+                    </li>
+                    <li>
+                      <a href="./discover.html">Khám phá đặc biệt</a>
+                    </li>
+                    <li>
+                      <a href="./schedule.html">Thời gian khởi hành</a>
+                    </li>
+                    <li>
+                      <a href="./promotions.html">Khuyến mãi</a>
+                    </li>
+                    <li>
+                      <a href="./q-a.html">Thông tin & hỏi đáp</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="header-bot">
+              <div class="container">
+                <div class="inner">
+                  <div class="swiper campaignPromotion">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="text clr-white text-center ff-medium">
+                          Bạn đã sẵn sàng đặt chuyến phiêu lưu tiếp theo và
+                          không muốn chờ đợi?
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="text clr-white text-center ff-medium">
+                          Bạn đã sẵn sàng đặt chuyến phiêu lưu tiếp theo và
+                          không muốn chờ đợi?
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next">
+                      <i class="fa-light fa-angle-right"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                      <i class="fa-light fa-angle-left"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main" id="main">
+        <div class="warper-content">
+          <div class="main-content">
+            <div class="custom-breadcrumb">
+              <div class="container">
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                      <a href="#">Trang chủ</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                      Thông tin đặt tour
+                    </li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+
+            <div class="page page-tour-order">
+              <div class="page-container container">
+                <div class="page-inner">
+                  <!-- oder-step-by-step: style can be found sass pages oder.scss -->
+                  <div class="oder-step-by-step">
+                    <div class="oder-step-by-step-container">
+                      <div class="order-step step-1 active">
+                        <label for="">
+                          <span>1</span>
+                          Thông tin đặt tour
+                        </label>
+                      </div>
+                      <div class="order-step step-2 active">
+                        <label for="">
+                          <span>2</span>
+                          Thanh toán
+                        </label>
+                      </div>
+                      <div class="order-step step-3 active">
+                        <label for="">
+                          <span>3</span>
+                          Thành công
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.oder-step-by-step -->
+
+                  <div class="um-oder">
+                    <div class="um-oder-info">
+                      <div class="row d-flex jsc-center">
+                        <div class="col-sm-8 col-md-8">
+                          <div class="box shadow-effect-1">
+                            <div class="box-body">
+                              <div class="success-tpl">
+                                <span
+                                  ><img
+                                    src="../img/icons/success-icon.svg"
+                                    class="img-responsive"
+                                    alt=""
+                                /></span>
+                                <h2>Cảm ơn bạn đã đăng ký tour tại Umove</h2>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="box shadow-effect-1 mt-4">
+                            <div class="box-body">
+                              <h3 class="heading">Thông tin tour</h3>
+                              <div class="oder-info-block">
+                                <div
+                                  class="ff-semibold heading-tertiary clr-dark mb-1"
+                                >
+                                  SUP/Kayak Tour (HB07) - Khám phá Vịnh Ngòi
+                                </div>
+                                <p><b>Thời gian:</b> 3 ngày</p>
+                                <p><b>Ngày khởi hành:</b> 3 ngày</p>
+                                <p><b>Ngày kết thúc:</b> 3 ngày</p>
+                                <p><b>Địa điểm:</b> Hà giang</p>
+                                <p><b>Độ khó:</b> 5/10</p>
+                                <p><b>Hoạt động:</b> Trekking, đạp xe</p>
+                                <p>
+                                  <b>Tổng tiền:</b>
+                                  <strong
+                                    class="clr-secondary ff-bold heading-tertiary ml-2"
+                                    >3.614.000 VNĐ</strong
+                                  >
+                                </p>
+                              </div>
+
+                              <div class="h-line mt-3 mb-3"></div>
+
+                              <div class="oder-info-block">
+                                <h4 class="heading heading-tertiary">
+                                  Thông tin khách hàng
+                                </h4>
+                                <div class="oder-info-item">
+                                  <div class="title ff-medium mb-2">
+                                    Khách hàng 1 - Người lớn
+                                  </div>
+                                  <ul class="custom-nav">
+                                    <li>
+                                      <span>Họ và tên</span>
+                                      <b>Hoàng anh lâm</b>
+                                    </li>
+
+                                    <li>
+                                      <span>Giới tính</span>
+                                      <b>Nam</b>
+                                    </li>
+
+                                    <li>
+                                      <span>Ngày sinh</span>
+                                      <b>01/05/1994</b>
+                                    </li>
+
+                                    <li>
+                                      <span>CCCD / CMND</span>
+                                      <b>174555008</b>
+                                    </li>
+                                  </ul>
+                                </div>
+
+                                <div class="oder-info-item">
+                                  <div class="title ff-medium mb-2">
+                                    Khách hàng 2 - Người lớn
+                                  </div>
+                                  <ul class="custom-nav">
+                                    <li>
+                                      <span>Họ và tên</span>
+                                      <b>Hoàng anh lâm</b>
+                                    </li>
+
+                                    <li>
+                                      <span>Giới tính</span>
+                                      <b>Nam</b>
+                                    </li>
+
+                                    <li>
+                                      <span>Ngày sinh</span>
+                                      <b>01/05/1994</b>
+                                    </li>
+
+                                    <li>
+                                      <span>CCCD / CMND</span>
+                                      <b>174555008</b>
+                                    </li>
+                                  </ul>
+                                </div>
+
+                                <div class="oder-info-item">
+                                  <div class="title ff-medium mb-2">
+                                    Khách hàng 3 - Trẻ em
+                                  </div>
+                                  <ul class="custom-nav">
+                                    <li>
+                                      <span>Họ và tên</span>
+                                      <b>Hoàng anh lâm</b>
+                                    </li>
+
+                                    <li>
+                                      <span>Giới tính</span>
+                                      <b>Nam</b>
+                                    </li>
+
+                                    <li>
+                                      <span>Ngày sinh</span>
+                                      <b>01/05/1994</b>
+                                    </li>
+
+                                    <li>
+                                      <span>CCCD / CMND</span>
+                                      <b>174555008</b>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="box shadow-effect-1">
+                            <div class="box-body">
+                              <h3 class="heading">
+                                Thông tin liên hệ (Người đặt tour)
+                              </h3>
+
+                              <div class="oder-info-block mt-2">
+                                <p>
+                                  Họ tên <br />
+                                  <b>Hoàng anh Lâm</b>
+                                </p>
+                                <p>
+                                  Số điện thoại <br />
+                                  <b>0918 273 645</b>
+                                </p>
+                                <p>
+                                  Email <br />
+                                  <b>anhlamveo123@gmail.com</b>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="mt-3 text-center">
+                            <a href="./index.html" class="btn bg-dark clr-white"
+                              >Quay về trang chủ
+                              <i class="fa-light fa-long-arrow-right ml-1"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer" id="footer">
+        <div class="footer-container">
+          <div class="footer-inner">
+            <div class="footer-top">
+              <div class="container">
+                <div class="footer-form-contact">
+                  <h4>Đăng ký nhận bản tin</h4>
+                  <form action="#">
+                    <div>
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Nhập địa chỉ email của bạn"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <button
+                          type="submit"
+                          class="btn clr-dark ff-semibold bg-secondary radius-0"
+                        >
+                          Đăng ký
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="footer-bot">
+              <div class="container">
+                <div class="footer-main">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                      <div class="footer-item footer-item-contact">
+                        <div class="footer-item-title mb-3">
+                          <h4
+                            class="heading title text-uppercase clr-secondary ff-bold"
+                          >
+                            Thông tin liên hệ
+                          </h4>
+                        </div>
+                        <ul class="custom-nav">
+                          <li>
+                            <p>
+                              <b>Địa chỉ:</b> 29 Nguyễn Đình Thi, Tây Hồ, Hà Nội
+                            </p>
+                          </li>
+                          <li>
+                            <p><b>Số điện thoại:</b> 097 980 05 88</p>
+                          </li>
+                          <li>
+                            <p><b>Email:</b> booking.tour@umove.com.vn</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-8 col-md-8">
+                      <div class="footer-item footer-menu quick-links">
+                        <ul class="menu">
+                          <li>
+                            <span class="noLink"> Về chúng tôi </span>
+                            <ul>
+                              <li>
+                                <a href="#">Câu chuyện của</a>
+                              </li>
+                              <li>
+                                <a href="#">Làm việc tại</a>
+                              </li>
+                              <li>
+                                <a href="#">Blog</a>
+                              </li>
+                              <li>
+                                <a href="#">Hợp tác với</a>
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li>
+                            <span class="noLink"> Tư vấn của chuyên gia </span>
+                            <ul>
+                              <li>
+                                <a href="#">Câu chuyện của</a>
+                              </li>
+                              <li>
+                                <a href="#">Làm việc tại</a>
+                              </li>
+                              <li>
+                                <a href="#">Blog</a>
+                              </li>
+                              <li>
+                                <a href="#">Hợp tác với</a>
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li>
+                            <span class="noLink">Hỗ trợ khách hàng</span>
+                            <ul>
+                              <li>
+                                <a href="#">Câu chuyện của</a>
+                              </li>
+                              <li>
+                                <a href="#">Làm việc tại</a>
+                              </li>
+                              <li>
+                                <a href="#">Blog</a>
+                              </li>
+                              <li>
+                                <a href="#">Hợp tác với</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="h-line mt-3 mb-3"></div>
+
+                <div class="footer-sub">
+                  <ul class="custom-nav">
+                    <li>
+                      <img
+                        src="../img/img-3.png"
+                        class="img-responsive"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="../img/img-2.png"
+                        class="img-responsive"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="../img/img-1.png"
+                        class="img-responsive"
+                        alt=""
+                      />
+                    </li>
+                  </ul>
+
+                  <ul
+                    class="nav-sci"
+                    style="--color: #ffffff99; --border-color: #ffffff99"
+                  >
+                    <li>
+                      <a href="# " rel="nofollow ">
+                        <i class="fab fa-linkedin-in fa-fw"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="# " rel="nofollow ">
+                        <i class="fab fa-instagram fa-fw"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="# " rel="nofollow ">
+                        <i class="fab fa-facebook-f fa-fw"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="# " rel="nofollow ">
+                        <i class="fab fa-youtube fa-fw"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="h-line mt-3 mb-3"></div>
+
+                <div class="copy-right">
+                  <p>© 2022. All Rights Reserved</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- jQuery js -->
+    <script src="../libs/jQuery/jquery.min.js" defer></script>
+    <!-- bootstrap js -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      defer
+    ></script>
+    <!-- owl carousel js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js"
+      defer
+    ></script>
+    <!-- lights slider js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"
+      defer
+    ></script>
+    <!-- swiper js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+      defer
+    ></script>
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    <!-- magnific js -->
+    <script
+      src="../libs/magnific-popup/jquery.magnific-popup.min.js"
+      defer
+    ></script>
+    <!-- select2 js -->
+    <script src="../libs/select2/select2.full.min.js" defer></script>
+    <!-- app js -->
+    <script src="../../js/scripts.js" defer></script>
+    <!-- app js -->
+    <script src="../../js/app.js" defer></script>
+  </body>
+</html>

@@ -1,5 +1,9 @@
 .box {
   position: relative;
+  &-body {
+    background-color: #fff;
+    padding: 24px;
+  }
   &-img {
     position: relative;
     overflow: hidden;
@@ -29,6 +33,11 @@
       .paragraph {
         font-family: var(--font-primary-thin) !important;
         @include breakHiddenLine(4, 96px);
+      }
+      .title {
+        margin: 0px;
+        margin-bottom: 8px;
+        @include breakHiddenLine(2, inherit);
       }
     }
     &:hover {

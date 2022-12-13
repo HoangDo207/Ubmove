@@ -1,0 +1,33 @@
+/* ----------- Breadcrumb ----------- */
+
+.custom-breadcrumb {
+  position: relative;
+  width: 100%;
+  padding: 24px 0 0;
+  margin-top: 0;
+  background-color: transparent;
+  margin-bottom: 0;
+  z-index: 2;
+  .breadcrumb {
+    margin: 0px;
+    padding: 0px;
+    background-color: inherit;
+    & > li {
+      & > a {
+        font-size: 16px;
+        line-height: 21px;
+        color: #999999;
+        text-decoration: none;
+      }
+      &.active {
+        font-family: var(--font-primary-semiBold);
+        & > a {
+          color: var(--clr-dark) !important;
+        }
+        color: var(--clr-dark) !important;
+      }
+    }
+  }
+}
+
+/* ----------- Breadcrumb ----------- */

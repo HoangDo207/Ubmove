@@ -5,15 +5,15 @@
     color: var(--clr-dark);
   }
   &-rate {
-    font-family: var(--font-primary-medium);
+    font-family: var(--font-primary-medium) !important;
     font-size: 14px;
     line-height: 15px;
-    color: #999999;
+    color: #999999 !important;
     .icon {
-      color: #ffca08;
+      color: #ffca08 !important;
     }
     b {
-      color: var(--clr-dark);
+      color: var(--clr-dark) !important;
     }
   }
 }

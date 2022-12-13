@@ -4,7 +4,7 @@
   &-img {
     position: relative;
     overflow: hidden;
-    img {
+    & > a img {
       width: 100%;
       height: auto;
       object-fit: cover;
@@ -92,6 +92,25 @@
     }
     .card-synop {
       color: #666666;
+      @include breakHiddenLine(4, 128px);
+    }
+  }
+  &-type-4 {
+    @extend .card;
+    display: flex;
+    .card-img {
+      width: 100px;
+    }
+    .card-title {
+      font-family: var(--font-primary-semiBold);
+      font-size: 18px;
+      line-height: 24px;
+      @include breakHiddenLine(2, 48px);
+      margin-top: 8px;
+    }
+    .card-info {
+      width: calc(100% - 100px);
+      padding: 0 16px;
     }
   }
 }

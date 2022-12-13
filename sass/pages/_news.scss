@@ -1,0 +1,23 @@
+.page-news {
+  .um-news-navigator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 48px 0 32px;
+    .nav-inline {
+      li {
+        a {
+          display: block;
+          font-family: var(--font-primary-semiBold);
+          font-size: 18px;
+          line-height: 24px;
+          color: #333333;
+          text-decoration: none;
+          &.active {
+            color: var(--clr-secondary);
+          }
+        }
+      }
+    }
+  }
+}

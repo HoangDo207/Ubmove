@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Box Component</title>
+    <title>U Move</title>
     <!-- bootstrap css -->
     <link
       rel="stylesheet"
@@ -45,6 +45,1580 @@
     <link rel="stylesheet" href="../../css/style.css" />
   </head>
   <body>
+    <div class="wrapper-app">
+      <header class="header" id="header">
+        <div class="header-container">
+          <div class="header-inner">
+            <div class="header-top">
+              <div class="container">
+                <div class="inner">
+                  <div class="header-top-left">
+                    <ul class="custom-nav">
+                      <li>
+                        <a href="./course.html">Khóa huấn luyện</a>
+                      </li>
+                      <li>
+                        <a href="./events.html">Sự kiện</a>
+                      </li>
+                      <li>
+                        <a href="./news.html">Blog</a>
+                      </li>
+                      <li>
+                        <a href="./contact.html">Liên hệ</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="header-top-right">
+                    <div class="header-language">
+                      <div class="dropdown">
+                        <div
+                          class="toggle-language"
+                          id="dropdownLanguageButton"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                        >
+                          <img
+                            src="../img/flag-vn.png"
+                            class="img-responsive"
+                            alt=""
+                          />
+                          <i class="fa-light fa-angle-down"></i>
+                        </div>
+                        <div
+                          class="dropdown-menu"
+                          aria-labelledby="dropdownLanguageButton"
+                        >
+                          <a class="dropdown-item" href="#"
+                            ><img src="../img/flag-vn.png" alt=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="header-main">
+              <div class="container">
+                <div class="inner">
+                  <div class="header-logo">
+                    <a href="./index.html">
+                      <h1>
+                        <img
+                          src="../img/logo.png"
+                          class="img-responsive"
+                          width="78"
+                          alt=""
+                        />
+                      </h1>
+                    </a>
+                  </div>
+
+                  <div class="header-search">
+                    <form action="#">
+                      <div>
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Tìm kiếm cuộc hành trình của bạn"
+                          />
+                        </div>
+
+                        <div class="form-actions">
+                          <button class="btn">
+                            <i class="fa-light fa-magnifying-glass"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                  <div class="header-utils">
+                    <div class="hotline">
+                      <a href="#">
+                        <img
+                          src="../img/icons/phone-calling-black.svg"
+                          alt=""
+                        />
+                        <span>096 929 223 - 0979 800 588</span>
+                      </a>
+                    </div>
+
+                    <div class="clr-gray-light">|</div>
+
+                    <div class="block-user">
+                      <a href="./user-dashboard.html"
+                        ><i class="fa-light fa-user"></i>
+                        <span>Đăng nhập</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="header-navigator">
+              <div class="container">
+                <div class="inner">
+                  <ul class="menu">
+                    <li>
+                      <a href="./locations.html">Địa điểm</a>
+                    </li>
+                    <li>
+                      <a href="./activate.html">Hoạt động</a>
+                    </li>
+                    <li>
+                      <a href="./discover.html">Khám phá đặc biệt</a>
+                    </li>
+                    <li>
+                      <a href="./schedule.html">Thời gian khởi hành</a>
+                    </li>
+                    <li>
+                      <a href="./promotions.html">Khuyến mãi</a>
+                    </li>
+                    <li>
+                      <a href="./q-a.html">Thông tin & hỏi đáp</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="header-bot">
+              <div class="container">
+                <div class="inner">
+                  <div class="swiper campaignPromotion">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="text clr-white text-center ff-medium">
+                          Bạn đã sẵn sàng đặt chuyến phiêu lưu tiếp theo và
+                          không muốn chờ đợi?
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="text clr-white text-center ff-medium">
+                          Bạn đã sẵn sàng đặt chuyến phiêu lưu tiếp theo và
+                          không muốn chờ đợi?
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next">
+                      <i class="fa-light fa-angle-right"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                      <i class="fa-light fa-angle-left"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main" id="main">
+        <div class="warpper-content">
+          <!-- banner -->
+          <div class="banner">
+            <div class="banner-container">
+              <div id="main-slider">
+                <div class="owl-carousel owl-theme main-slider">
+                  <div class="item">
+                    <img
+                      src="../img/banner.png"
+                      class="img-responsive"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="search-bar-on-banner">
+                <!-- search-main:style can be found in folder sass components form.scss-->
+                <div class="search-main">
+                  <div class="search-main-container">
+                    <div class="search-main-inner">
+                      <form action="#">
+                        <div>
+                          <div class="form-group">
+                            <select class="form-control select2">
+                              <option>Điểm đến</option>
+                              <option>option 1</option>
+                              <option>option 2</option>
+                              <option>option 3</option>
+                              <option>option 4</option>
+                            </select>
+                          </div>
+
+                          <div class="form-group">
+                            <select class="form-control select2">
+                              <option>Hoạt động</option>
+                              <option>option 1</option>
+                              <option>option 2</option>
+                              <option>option 3</option>
+                              <option>option 4</option>
+                            </select>
+                          </div>
+
+                          <div class="form-group">
+                            <div class="input-group">
+                              <span class="icon"
+                                ><i class="fa-light fa-calendar"></i
+                              ></span>
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="ngày khởi hành"
+                              />
+                            </div>
+                          </div>
+
+                          <div class="form-action">
+                            <button
+                              type="submit"
+                              class="btn bg-secondary radius-0"
+                            >
+                              Tìm tour
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.banner -->
+
+          <!-- main-content -->
+          <div class="main-content">
+            <div class="page home-page">
+              <div class="page-container">
+                <div class="page-inner">
+                  <!-- um-sec-trending um-sec:style can be found in folder sass layout sections.scss-->
+                  <section class="um-sec um-sec-trending">
+                    <div class="um-sec-container container">
+                      <div class="um-sec-inner">
+                        <div class="row">
+                          <div class="col-xs-12 col-sm-6 col-md-6">
+                            <!-- box-full-img:style can be found in folder sass components box.scss-->
+                            <div class="box-full-img">
+                              <div class="box-img">
+                                <a href="./tour-detail.html">
+                                  <img
+                                    src="../../img/box-img-full.png"
+                                    class="img-responsive"
+                                    alt=""
+                                  />
+                                </a>
+                              </div>
+                              <div class="box-info">
+                                <div class="info">
+                                  <h3 class="title clr-white ff-semibold">
+                                    Chèo Sup & Kayak
+                                  </h3>
+                                  <div class="paragraph clr-white">
+                                    Từ những hồ nước êm đềm đến những dòng sông
+                                    hoang dã và những đường bờ biển đẹp đến ngỡ
+                                    ngàng, những kỳ nghỉ chèo thuyền kayak và
+                                    chèo thuyền rất đa dạng vì chúng rất thú vị.
+                                    Cho dù bạn là một người đam mê chèo thuyền
+                                    kayak...
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- /.box-full-img -->
+                          </div>
+                          <div class="col-xs-12 col-sm-6 col-md-6">
+                            <!-- box-full-img:style can be found in folder sass components box.scss -->
+                            <div class="box-full-img">
+                              <div class="box-img">
+                                <a href="./tour-detail.html">
+                                  <img
+                                    src="../../img/box-img-full.png"
+                                    class="img-responsive"
+                                    alt=""
+                                  />
+                                </a>
+                              </div>
+                              <div class="box-info">
+                                <div class="info">
+                                  <h3 class="title clr-white ff-semibold">
+                                    Chèo Sup & Kayak
+                                  </h3>
+                                  <div class="paragraph clr-white">
+                                    Từ những hồ nước êm đềm đến những dòng sông
+                                    hoang dã và những đường bờ biển đẹp đến ngỡ
+                                    ngàng, những kỳ nghỉ chèo thuyền kayak và
+                                    chèo thuyền rất đa dạng vì chúng rất thú vị.
+                                    Cho dù bạn là một người đam mê chèo thuyền
+                                    kayak...
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- /.box-full-img -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <!-- /.um-sec-trending -->
+
+                  <!-- um-sec-adventure um-sec:style can be found in folder sass layout sections.scss -->
+                  <section class="um-sec um-sec-adventure pt-0">
+                    <div class="um-sec-container container">
+                      <div class="um-sec-inner">
+                        <!-- slider-cover shadow-slider:style can be found in folder sass abstracts utils.scss -->
+                        <div class="slider-cover">
+                          <div class="shadow-slider">
+                            <div
+                              class="owl-carousel owl-theme adventure-slider"
+                            >
+                              <div class="item">
+                                <!-- card card-type-1:style can be found in folder sass components card.scss -->
+                                <div class="card card-type-1">
+                                  <div class="card-img">
+                                    <a href="./tours.html">
+                                      <img
+                                        src="../../img/card-img.png"
+                                        class="img-responsive"
+                                        alt=""
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="card-info">
+                                    <h3 class="card-title">
+                                      <a
+                                        href="#"
+                                        class="title clr-dark ff-semibold"
+                                        >Căm trại</a
+                                      >
+                                    </h3>
+                                  </div>
+                                </div>
+                                <!-- /.card card-type-1 -->
+                              </div>
+                              <div class="item">
+                                <!-- card card-type-1:style can be found in folder sass components card.scss -->
+                                <div class="card card-type-1">
+                                  <div class="card-img">
+                                    <a href="./tours.html">
+                                      <img
+                                        src="../../img/card-img.png"
+                                        class="img-responsive"
+                                        alt=""
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="card-info">
+                                    <h3 class="card-title">
+                                      <a
+                                        href="#"
+                                        class="title clr-dark ff-semibold"
+                                        >Căm trại</a
+                                      >
+                                    </h3>
+                                  </div>
+                                </div>
+                                <!-- /.card card-type-1 -->
+                              </div>
+                              <div class="item">
+                                <!-- card card-type-1:style can be found in folder sass components card.scss -->
+                                <div class="card card-type-1">
+                                  <div class="card-img">
+                                    <a href="./tours.html">
+                                      <img
+                                        src="../../img/card-img.png"
+                                        class="img-responsive"
+                                        alt=""
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="card-info">
+                                    <h3 class="card-title">
+                                      <a
+                                        href="#"
+                                        class="title clr-dark ff-semibold"
+                                        >Căm trại</a
+                                      >
+                                    </h3>
+                                  </div>
+                                </div>
+                                <!-- /.card card-type-1 -->
+                              </div>
+                              <div class="item">
+                                <!-- card card-type-1:style can be found in folder sass components card.scss -->
+                                <div class="card card-type-1">
+                                  <div class="card-img">
+                                    <a href="./tours.html">
+                                      <img
+                                        src="../../img/card-img.png"
+                                        class="img-responsive"
+                                        alt=""
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="card-info">
+                                    <h3 class="card-title">
+                                      <a
+                                        href="#"
+                                        class="title clr-dark ff-semibold"
+                                        >Căm trại</a
+                                      >
+                                    </h3>
+                                  </div>
+                                </div>
+                                <!-- /.card card-type-1 -->
+                              </div>
+                              <div class="item">
+                                <!-- card card-type-1:style can be found in folder sass components card.scss -->
+                                <div class="card card-type-1">
+                                  <div class="card-img">
+                                    <a href="./tours.html">
+                                      <img
+                                        src="../../img/card-img.png"
+                                        class="img-responsive"
+                                        alt=""
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="card-info">
+                                    <h3 class="card-title">
+                                      <a
+                                        href="#"
+                                        class="title clr-dark ff-semibold"
+                                        >Căm trại</a
+                                      >
+                                    </h3>
+                                  </div>
+                                </div>
+                                <!-- /.card card-type-1 -->
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.slider-cover -->
+                      </div>
+                    </div>
+                  </section>
+                  <!-- /.m-sec-adventure -->
+
+                  <!-- um-sec-tour um-sec:style can be found in folder sass layout sections.scss -->
+                  <section class="um-sec um-sec-tour tour-family">
+                    <div class="um-sec-container container">
+                      <div class="um-sec-inner">
+                        <div class="um-sec-header">
+                          <h2 class="heading heading-secondary">
+                            Tour gia đình
+                          </h2>
+                          <a
+                            href="./tours.html"
+                            class="d-block ml-auto clr-dark paragraph ff-semibold"
+                            >Xem tất cả tour
+                            <i class="fa-light fa-arrow-right ml-1"></i
+                          ></a>
+                        </div>
+
+                        <div class="um-sec-synop mt-2 paragraph clr-gray">
+                          <p>
+                            Những kỳ nghỉ phiêu lưu cùng gia đình là cách hoàn
+                            hảo để dành thời gian chất lượng cho nhau và tạo ra
+                            những kỷ niệm sẽ tồn tại suốt đời. Các chương trình
+                            tour của Umove Adventure giúp cho khách hàng có trải
+                            nghiệm outdoor “thật” nhất ở các cấp độ khác nhau và
+                            các hoạt động khác nhau.
+                          </p>
+                        </div>
+
+                        <div class="um-sec-content mt-5">
+                          <div class="row">
+                            <div class="col-xs-12 col-sm-4 col-md-4">
+                              <!-- card card-type-2:style can be found in folder sass components card.scss -->
+                              <div class="card card-type-2">
+                                <div class="card-img">
+                                  <a href="./tour-detail.html">
+                                    <img
+                                      src="../../img/card-img-large.png"
+                                      class="img-responsive"
+                                      alt=""
+                                    />
+                                  </a>
+                                </div>
+                                <div class="card-info">
+                                  <div class="card-utils mb-1">
+                                    <div class="tour-code">
+                                      <b>Mã tour:</b> <span>HB07</span>
+                                    </div>
+
+                                    <span class="clr-gray-light">|</span>
+
+                                    <div class="tour-rate">
+                                      <b>4.5</b>
+                                      <i
+                                        class="fa-sharp fa-solid fa-star icon"
+                                      ></i>
+                                      <span>(120 đánh giá)</span>
+                                    </div>
+                                  </div>
+                                  <h3 class="card-title">
+                                    <a
+                                      href="./tour-detail.html"
+                                      class="heading heading-tertiary clr-dark"
+                                      >SUP/Kayak Tour (HB07) - Khám phá Vịnh
+                                      Ngòi Hoa...</a
+                                    >
+                                  </h3>
+                                  <div class="h-line mt-2 mb-2"></div>
+
+                                  <div class="card-synop">
+                                    <ul class="custom-nav">
+                                      <li>
+                                        <p><b>Thời gian:</b> 3 ngày</p>
+                                      </li>
+                                      <li>
+                                        <p><b>Địa điểm:</b> Hà Giang</p>
+                                      </li>
+                                      <li>
+                                        <p>
+                                          <b>Độ khó:</b> 5/10
+                                          <i
+                                            class="fa-solid fa-circle-info clr-gray"
+                                          ></i>
+                                        </p>
+                                      </li>
+                                      <li>
+                                        <p>
+                                          <b>Hoạt động:</b> Trekking, đạp xe
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </div>
+
+                                  <div class="h-line mt-2 mb-2"></div>
+
+                                  <div class="card-cost">
+                                    Chi phí: <b>1.750.000 VNĐ</b>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /.card card-type-2 -->
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4">
+                              <!-- card card-type-2:style can be found in folder sass components card.scss -->
+                              <div class="card card-type-2">
+                                <div class="card-img">
+                                  <a href="./tour-detail.html">
+                                    <img
+                                      src="../../img/card-img-large.png"
+                                      class="img-responsive"
+                                      alt=""
+                                    />
+                                  </a>
+                                </div>
+                                <div class="card-info">
+                                  <div class="card-utils mb-1">
+                                    <div class="tour-code">
+                                      <b>Mã tour:</b> <span>HB07</span>
+                                    </div>
+
+                                    <span class="clr-gray-light">|</span>
+
+                                    <div class="tour-rate">
+                                      <b>4.5</b>
+                                      <i
+                                        class="fa-sharp fa-solid fa-star icon"
+                                      ></i>
+                                      <span>(120 đánh giá)</span>
+                                    </div>
+                                  </div>
+                                  <h3 class="card-title">
+                                    <a
+                                      href="./tour-detail.html"
+                                      class="heading heading-tertiary clr-dark"
+                                      >SUP/Kayak Tour (HB07) - Khám phá Vịnh
+                                      Ngòi Hoa...</a
+                                    >
+                                  </h3>
+                                  <div class="h-line mt-2 mb-2"></div>
+
+                                  <div class="card-synop">
+                                    <ul class="custom-nav">
+                                      <li>
+                                        <p><b>Thời gian:</b> 3 ngày</p>
+                                      </li>
+                                      <li>
+                                        <p><b>Địa điểm:</b> Hà Giang</p>
+                                      </li>
+                                      <li>
+                                        <p>
+                                          <b>Độ khó:</b> 5/10
+                                          <i
+                                            class="fa-solid fa-circle-info clr-gray"
+                                          ></i>
+                                        </p>
+                                      </li>
+                                      <li>
+                                        <p>
+                                          <b>Hoạt động:</b> Trekking, đạp xe
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </div>
+
+                                  <div class="h-line mt-2 mb-2"></div>
+
+                                  <div class="card-cost">
+                                    Chi phí: <b>1.750.000 VNĐ</b>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /.card card-type-2 -->
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4">
+                              <!-- card card-type-2:style can be found in folder sass components card.scss -->
+                              <div class="card card-type-2">
+                                <div class="card-img">
+                                  <a href="#">
+                                    <img
+                                      src="../../img/card-img-large.png"
+                                      class="img-responsive"
+                                      alt=""
+                                    />
+                                  </a>
+                                </div>
+                                <div class="card-info">
+                                  <div class="card-utils mb-1">
+                                    <div class="tour-code">
+                                      <b>Mã tour:</b> <span>HB07</span>
+                                    </div>
+
+                                    <span class="clr-gray-light">|</span>
+
+                                    <div class="tour-rate">
+                                      <b>4.5</b>
+                                      <i
+                                        class="fa-sharp fa-solid fa-star icon"
+                                      ></i>
+                                      <span>(120 đánh giá)</span>
+                                    </div>
+                                  </div>
+                                  <h3 class="card-title">
+                                    <a
+                                      href="#"
+                                      class="heading heading-tertiary clr-dark"
+                                      >SUP/Kayak Tour (HB07) - Khám phá Vịnh
+                                      Ngòi Hoa...</a
+                                    >
+                                  </h3>
+                                  <div class="h-line mt-2 mb-2"></div>
+
+                                  <div class="card-synop">
+                                    <ul class="custom-nav">
+                                      <li>
+                                        <p><b>Thời gian:</b> 3 ngày</p>
+                                      </li>
+                                      <li>
+                                        <p><b>Địa điểm:</b> Hà Giang</p>
+                                      </li>
+                                      <li>
+                                        <p>
+                                          <b>Độ khó:</b> 5/10
+                                          <i
+                                            class="fa-solid fa-circle-info clr-gray"
+                                          ></i>
+                                        </p>
+                                      </li>
+                                      <li>
+                                        <p>
+                                          <b>Hoạt động:</b> Trekking, đạp xe
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </div>
+
+                                  <div class="h-line mt-2 mb-2"></div>
+
+                                  <div class="card-cost">
+                                    Chi phí: <b>1.750.000 VNĐ</b>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /.card card-type-2 -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <!-- /.um-sec-adventure -->
+
+                  <!-- um-sec-tour um-sec:style can be found in folder sass layout sections.scss -->
+                  <section class="um-sec um-sec-tour tour-mountain">
+                    <div class="um-sec-container container">
+                      <div class="um-sec-inner">
+                        <div class="um-sec-header">
+                          <h2 class="heading heading-secondary">
+                            Tour leo núi
+                          </h2>
+                          <a
+                            href="./tours.html"
+                            class="d-block ml-auto clr-dark paragraph ff-semibold"
+                            >Xem tất cả tour
+                            <i class="fa-light fa-arrow-right ml-1"></i
+                          ></a>
+                        </div>
+
+                        <div class="um-sec-synop mt-2 paragraph clr-gray">
+                          <p>
+                            Những kỳ nghỉ phiêu lưu cùng gia đình là cách hoàn
+                            hảo để dành thời gian chất lượng cho nhau và tạo ra
+                            những kỷ niệm sẽ tồn tại suốt đời. Các chương trình
+                            tour của Umove Adventure giúp cho khách hàng có trải
+                            nghiệm outdoor “thật” nhất ở các cấp độ khác nhau và
+                            các hoạt động khác nhau.
+                          </p>
+                        </div>
+
+                        <div class="um-sec-content mt-5">
+                          <div class="row">
+                            <div class="col-xs-12 col-sm-4 col-md-4">
+                              <!-- card card-type-2:style can be found in folder sass components card.scss -->
+                              <div class="card card-type-2">
+                                <div class="card-img">
+                                  <a href="./tour-detail.html">
+                                    <img
+                                      src="../../img/card-img-large.png"
+                                      class="img-responsive"
+                                      alt=""
+                                    />
+                                  </a>
+                                </div>
+                                <div class="card-info">
+                                  <div class="card-utils mb-1">
+                                    <div class="tour-code">
+                                      <b>Mã tour:</b> <span>HB07</span>
+                                    </div>
+
+                                    <span class="clr-gray-light">|</span>
+
+                                    <div class="tour-rate">
+                                      <b>4.5</b>
+                                      <i
+                                        class="fa-sharp fa-solid fa-star icon"
+                                      ></i>
+                                      <span>(120 đánh giá)</span>
+                                    </div>
+                                  </div>
+                                  <h3 class="card-title">
+                                    <a
+                                      href="#"
+                                      class="heading heading-tertiary clr-dark"
+                                      >SUP/Kayak Tour (HB07) - Khám phá Vịnh
+                                      Ngòi Hoa...</a
+                                    >
+                                  </h3>
+                                  <div class="h-line mt-2 mb-2"></div>
+
+                                  <div class="card-synop">
+                                    <ul class="custom-nav">
+                                      <li>
+                                        <p><b>Thời gian:</b> 3 ngày</p>
+                                      </li>
+                                      <li>
+                                        <p><b>Địa điểm:</b> Hà Giang</p>
+                                      </li>
+                                      <li>
+                                        <p>
+                                          <b>Độ khó:</b> 5/10
+                                          <i
+                                            class="fa-solid fa-circle-info clr-gray"
+                                          ></i>
+                                        </p>
+                                      </li>
+                                      <li>
+                                        <p>
+                                          <b>Hoạt động:</b> Trekking, đạp xe
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </div>
+
+                                  <div class="h-line mt-2 mb-2"></div>
+
+                                  <div class="card-cost">
+                                    Chi phí: <b>1.750.000 VNĐ</b>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /.card card-type-2 -->
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4">
+                              <!-- card card-type-2:style can be found in folder sass components card.scss -->
+                              <div class="card card-type-2">
+                                <div class="card-img">
+                                  <a href="./tour-detail.html">
+                                    <img
+                                      src="../../img/card-img-large.png"
+                                      class="img-responsive"
+                                      alt=""
+                                    />
+                                  </a>
+                                </div>
+                                <div class="card-info">
+                                  <div class="card-utils mb-1">
+                                    <div class="tour-code">
+                                      <b>Mã tour:</b> <span>HB07</span>
+                                    </div>
+
+                                    <span class="clr-gray-light">|</span>
+
+                                    <div class="tour-rate">
+                                      <b>4.5</b>
+                                      <i
+                                        class="fa-sharp fa-solid fa-star icon"
+                                      ></i>
+                                      <span>(120 đánh giá)</span>
+                                    </div>
+                                  </div>
+                                  <h3 class="card-title">
+                                    <a
+                                      href="#"
+                                      class="heading heading-tertiary clr-dark"
+                                      >SUP/Kayak Tour (HB07) - Khám phá Vịnh
+                                      Ngòi Hoa...</a
+                                    >
+                                  </h3>
+                                  <div class="h-line mt-2 mb-2"></div>
+
+                                  <div class="card-synop">
+                                    <ul class="custom-nav">
+                                      <li>
+                                        <p><b>Thời gian:</b> 3 ngày</p>
+                                      </li>
+                                      <li>
+                                        <p><b>Địa điểm:</b> Hà Giang</p>
+                                      </li>
+                                      <li>
+                                        <p>
+                                          <b>Độ khó:</b> 5/10
+                                          <i
+                                            class="fa-solid fa-circle-info clr-gray"
+                                          ></i>
+                                        </p>
+                                      </li>
+                                      <li>
+                                        <p>
+                                          <b>Hoạt động:</b> Trekking, đạp xe
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </div>
+
+                                  <div class="h-line mt-2 mb-2"></div>
+
+                                  <div class="card-cost">
+                                    Chi phí: <b>1.750.000 VNĐ</b>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /.card card-type-2 -->
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4">
+                              <!-- card card-type-2:style can be found in folder sass components card.scss -->
+                              <div class="card card-type-2">
+                                <div class="card-img">
+                                  <a href="#">
+                                    <img
+                                      src="../../img/card-img-large.png"
+                                      class="img-responsive"
+                                      alt=""
+                                    />
+                                  </a>
+                                </div>
+                                <div class="card-info">
+                                  <div class="card-utils mb-1">
+                                    <div class="tour-code">
+                                      <b>Mã tour:</b> <span>HB07</span>
+                                    </div>
+
+                                    <span class="clr-gray-light">|</span>
+
+                                    <div class="tour-rate">
+                                      <b>4.5</b>
+                                      <i
+                                        class="fa-sharp fa-solid fa-star icon"
+                                      ></i>
+                                      <span>(120 đánh giá)</span>
+                                    </div>
+                                  </div>
+                                  <h3 class="card-title">
+                                    <a
+                                      href="#"
+                                      class="heading heading-tertiary clr-dark"
+                                      >SUP/Kayak Tour (HB07) - Khám phá Vịnh
+                                      Ngòi Hoa...</a
+                                    >
+                                  </h3>
+                                  <div class="h-line mt-2 mb-2"></div>
+
+                                  <div class="card-synop">
+                                    <ul class="custom-nav">
+                                      <li>
+                                        <p><b>Thời gian:</b> 3 ngày</p>
+                                      </li>
+                                      <li>
+                                        <p><b>Địa điểm:</b> Hà Giang</p>
+                                      </li>
+                                      <li>
+                                        <p>
+                                          <b>Độ khó:</b> 5/10
+                                          <i
+                                            class="fa-solid fa-circle-info clr-gray"
+                                          ></i>
+                                        </p>
+                                      </li>
+                                      <li>
+                                        <p>
+                                          <b>Hoạt động:</b> Trekking, đạp xe
+                                        </p>
+                                      </li>
+                                    </ul>
+                                  </div>
+
+                                  <div class="h-line mt-2 mb-2"></div>
+
+                                  <div class="card-cost">
+                                    Chi phí: <b>1.750.000 VNĐ</b>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /.card card-type-2 -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <!-- /.um-sec-tour -->
+
+                  <!-- um-sec-introduce um-sec:style can be found in folder sass layout sections.scss -->
+                  <section class="um-sec um-sec-introduce um-sec-bg-img">
+                    <div class="um-sec-container container">
+                      <div class="um-sec-inner">
+                        <div class="um-introduce-top">
+                          <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-6">
+                              <div class="um-img-cover">
+                                <img
+                                  src="../img/introduce-img.png"
+                                  class="img-responsive"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6">
+                              <div class="um-text-cover pt-6 pb-6">
+                                <h2 class="heading heading-secondary">
+                                  Umove Adventure - Du lịch có trách nhiệm
+                                </h2>
+                                <div class="clr-gray text mt-2">
+                                  Umove Adventure không phải là một công ty tổ
+                                  chức tour thông thường. Chúng tôi không thiết
+                                  kế các chương trình tour phổ biến hay cổ điển
+                                  mà khách hàng có thể mua ở bất cứ công ty tour
+                                  nào. Umove Adventure là Outdoor Tour. Các
+                                  chương trình tour của Umove Adventure giúp cho
+                                  khách hàng có trải nghiệm outdoor “thật” nhất
+                                  ở các cấp độ khác nhau và các hoạt động khác
+                                  nhau.
+                                </div>
+
+                                <div class="mt-3">
+                                  <a
+                                    href="#"
+                                    class="btn bg-secondary clr-dark radius-0"
+                                    >Đọc tiếp &rarr;</a
+                                  >
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="um-introduce-bot mt-5">
+                          <div class="slider-cover">
+                            <div
+                              class="owl-carousel owl-theme introduce-slider"
+                            >
+                              <div class="item">
+                                <div class="box-full-img">
+                                  <div class="box-img">
+                                    <a href="#">
+                                      <img
+                                        src="../../img/box-img-full.png"
+                                        class="img-responsive"
+                                        alt=""
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="box-info">
+                                    <div class="info">
+                                      <h3 class="title clr-white ff-semibold">
+                                        Chèo Sup & Kayak
+                                      </h3>
+                                      <div class="paragraph clr-white">
+                                        Từ những hồ nước êm đềm đến những dòng
+                                        sông hoang dã và những đường bờ biển đẹp
+                                        đến ngỡ ngàng, những kỳ nghỉ chèo thuyền
+                                        kayak và chèo thuyền rất đa dạng vì
+                                        chúng rất thú vị. Cho dù bạn là một
+                                        người đam mê chèo thuyền kayak...
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item">
+                                <div class="box-full-img">
+                                  <div class="box-img">
+                                    <a href="#">
+                                      <img
+                                        src="../../img/box-img-full.png"
+                                        class="img-responsive"
+                                        alt=""
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="box-info">
+                                    <div class="info">
+                                      <h3 class="title clr-white ff-semibold">
+                                        Chèo Sup & Kayak
+                                      </h3>
+                                      <div class="paragraph clr-white">
+                                        Từ những hồ nước êm đềm đến những dòng
+                                        sông hoang dã và những đường bờ biển đẹp
+                                        đến ngỡ ngàng, những kỳ nghỉ chèo thuyền
+                                        kayak và chèo thuyền rất đa dạng vì
+                                        chúng rất thú vị. Cho dù bạn là một
+                                        người đam mê chèo thuyền kayak...
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item">
+                                <div class="box-full-img">
+                                  <div class="box-img">
+                                    <a href="#">
+                                      <img
+                                        src="../../img/box-img-full.png"
+                                        class="img-responsive"
+                                        alt=""
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="box-info">
+                                    <div class="info">
+                                      <h3 class="title clr-white ff-semibold">
+                                        Chèo Sup & Kayak
+                                      </h3>
+                                      <div class="paragraph clr-white">
+                                        Từ những hồ nước êm đềm đến những dòng
+                                        sông hoang dã và những đường bờ biển đẹp
+                                        đến ngỡ ngàng, những kỳ nghỉ chèo thuyền
+                                        kayak và chèo thuyền rất đa dạng vì
+                                        chúng rất thú vị. Cho dù bạn là một
+                                        người đam mê chèo thuyền kayak...
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item">
+                                <div class="box-full-img">
+                                  <div class="box-img">
+                                    <a href="#">
+                                      <img
+                                        src="../../img/box-img-full.png"
+                                        class="img-responsive"
+                                        alt=""
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="box-info">
+                                    <div class="info">
+                                      <h3 class="title clr-white ff-semibold">
+                                        Chèo Sup & Kayak
+                                      </h3>
+                                      <div class="paragraph clr-white">
+                                        Từ những hồ nước êm đềm đến những dòng
+                                        sông hoang dã và những đường bờ biển đẹp
+                                        đến ngỡ ngàng, những kỳ nghỉ chèo thuyền
+                                        kayak và chèo thuyền rất đa dạng vì
+                                        chúng rất thú vị. Cho dù bạn là một
+                                        người đam mê chèo thuyền kayak...
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <!-- /.um-sec-introduce -->
+
+                  <!-- um-sec-news um-sec:style can be found in folder sass layout sections.scss -->
+                  <section class="um-sec um-sec-news">
+                    <div class="um-sec-container container">
+                      <div class="um-sec-inner">
+                        <div class="um-sec-header">
+                          <h2 class="heading heading-secondary">
+                            Your adventure start here
+                          </h2>
+                          <a
+                            href="./news.html"
+                            class="d-block ml-auto clr-dark paragraph ff-semibold"
+                            >Xem tất cả
+                            <i class="fa-light fa-arrow-right ml-1"></i
+                          ></a>
+                        </div>
+
+                        <div class="um-sec-synop mt-2 paragraph clr-gray">
+                          <p>
+                            Cảm hứng, chia sẻ, kinh nghiệm, kiến thức …tất cả
+                            những gì bạn cần cho chuyến khám phá tiếp theo.
+                          </p>
+                        </div>
+
+                        <div class="um-sec-content mt-5">
+                          <div class="row">
+                            <div class="col-xs-12 col-sm-4 col-md-4">
+                              <!-- card card-type-3:style can be found in folder sass components card.scss -->
+                              <div class="card card-type-3">
+                                <div class="card-img">
+                                  <a href="./news-detail.html">
+                                    <img
+                                      src="../../img/card-img-large.png"
+                                      class="img-responsive"
+                                      alt=""
+                                    />
+                                  </a>
+                                </div>
+                                <div class="card-info">
+                                  <div class="card-utils mt-1">
+                                    <div class="calendar">
+                                      <i class="fa-solid fa-calendar-days"></i>
+                                      <span>30/10/2022</span>
+                                    </div>
+                                  </div>
+
+                                  <div class="h-line mt-2 mb-2"></div>
+
+                                  <h3 class="card-title">
+                                    <a
+                                      href="#"
+                                      class="title ff-semibold clr-dark"
+                                      >Chèo SUP, Cắm Trại & Khám Phá Hồ Thác Bà,
+                                      Yên Bái</a
+                                    >
+                                  </h3>
+
+                                  <div class="card-synop mt-1">
+                                    <div class="text">
+                                      Bài viết rất chi tiết của anh Lê Đức Trung
+                                      về chuyến SUP Tour do Umove tổ chức tháng
+                                      3/2019 tới Hồ Thác Bà tại Yên Bái. Hồ nước
+                                      lớn nhất Việt Nam và có tới 1300 hòn đảo
+                                      xanh
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /.card card-type-2 -->
+                            </div>
+
+                            <div class="col-xs-12 col-sm-4 col-md-4">
+                              <!-- card card-type-3:style can be found in folder sass components card.scss -->
+                              <div class="card card-type-3">
+                                <div class="card-img">
+                                  <a href="./news-detail.html">
+                                    <img
+                                      src="../../img/card-img-large.png"
+                                      class="img-responsive"
+                                      alt=""
+                                    />
+                                  </a>
+                                </div>
+                                <div class="card-info">
+                                  <div class="card-utils mt-1">
+                                    <div class="calendar">
+                                      <i class="fa-solid fa-calendar-days"></i>
+                                      <span>30/10/2022</span>
+                                    </div>
+                                  </div>
+
+                                  <div class="h-line mt-2 mb-2"></div>
+
+                                  <h3 class="card-title">
+                                    <a
+                                      href="#"
+                                      class="title ff-semibold clr-dark"
+                                      >Chèo SUP, Cắm Trại & Khám Phá Hồ Thác Bà,
+                                      Yên Bái</a
+                                    >
+                                  </h3>
+
+                                  <div class="card-synop mt-1">
+                                    <div class="text">
+                                      Bài viết rất chi tiết của anh Lê Đức Trung
+                                      về chuyến SUP Tour do Umove tổ chức tháng
+                                      3/2019 tới Hồ Thác Bà tại Yên Bái. Hồ nước
+                                      lớn nhất Việt Nam và có tới 1300 hòn đảo
+                                      xanh
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /.card card-type-2 -->
+                            </div>
+
+                            <div class="col-xs-12 col-sm-4 col-md-4">
+                              <!-- card card-type-3:style can be found in folder sass components card.scss -->
+                              <div class="card card-type-3">
+                                <div class="card-img">
+                                  <a href="#">
+                                    <img
+                                      src="../../img/card-img-large.png"
+                                      class="img-responsive"
+                                      alt=""
+                                    />
+                                  </a>
+                                </div>
+                                <div class="card-info">
+                                  <div class="card-utils mt-1">
+                                    <div class="calendar">
+                                      <i class="fa-solid fa-calendar-days"></i>
+                                      <span>30/10/2022</span>
+                                    </div>
+                                  </div>
+
+                                  <div class="h-line mt-2 mb-2"></div>
+
+                                  <h3 class="card-title">
+                                    <a
+                                      href="#"
+                                      class="title ff-semibold clr-dark"
+                                      >Chèo SUP, Cắm Trại & Khám Phá Hồ Thác Bà,
+                                      Yên Bái</a
+                                    >
+                                  </h3>
+
+                                  <div class="card-synop mt-1">
+                                    <div class="text">
+                                      Bài viết rất chi tiết của anh Lê Đức Trung
+                                      về chuyến SUP Tour do Umove tổ chức tháng
+                                      3/2019 tới Hồ Thác Bà tại Yên Bái. Hồ nước
+                                      lớn nhất Việt Nam và có tới 1300 hòn đảo
+                                      xanh
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- /.card card-type-2 -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <!-- /.um-sec-tour -->
+
+                  <!-- um-sec-contact um-sec:style can be found in folder sass layout sections.scss -->
+                  <section class="um-sec um-sec-contact pt-0">
+                    <div class="um-sec-container container">
+                      <div class="um-sec-inner">
+                        <div class="um-contact-items">
+                          <div class="um-contact-item">
+                            <!-- box box-contact:style can be found in folder sass components box.scss -->
+                            <div class="box-contact">
+                              <div class="box-icon">
+                                <span
+                                  ><img
+                                    src="../img/icons/phone-calling.svg"
+                                    alt=""
+                                /></span>
+                              </div>
+                              <div class="title ff-bold clr-white mt-1">
+                                Hotline 24/7
+                              </div>
+                              <div class="clr-white mt-1">0979 800 588</div>
+                            </div>
+                            <!-- /.box box-contact -->
+                          </div>
+
+                          <div class="um-contact-item">
+                            <!-- box box-contact:style can be found in folder sass components box.scss -->
+                            <div class="box-contact">
+                              <div class="box-icon">
+                                <span
+                                  ><img src="../img/icons/email.svg" alt=""
+                                /></span>
+                              </div>
+                              <div class="title ff-bold clr-white mt-1">
+                                Gửi thư điện tử
+                              </div>
+                              <div class="clr-white mt-1">
+                                Chúng tôi sẽ trả lời bạn trong vòng 12 tiếng
+                              </div>
+                            </div>
+                            <!-- /.box box-contact -->
+                          </div>
+
+                          <div class="um-contact-item">
+                            <!-- box box-contact:style can be found in folder sass components box.scss -->
+                            <div class="box-contact">
+                              <div class="box-icon">
+                                <span
+                                  ><img src="../img/icons/chat.svg" alt=""
+                                /></span>
+                              </div>
+                              <div class="title ff-bold clr-white mt-1">
+                                Hỗ trợ trực tuyến
+                              </div>
+                              <div class="clr-white mt-1">
+                                Chat online, để lại tin nhắn offline
+                              </div>
+                            </div>
+                            <!-- /.box box-contact -->
+                          </div>
+
+                          <div class="um-contact-item">
+                            <!-- box box-contact:style can be found in folder sass components box.scss -->
+                            <div class="box-contact">
+                              <div class="box-icon">
+                                <span
+                                  ><img src="../img/icons/support.svg" alt=""
+                                /></span>
+                              </div>
+                              <div class="title ff-bold clr-white mt-1">
+                                Trung tâm hỗ trợ
+                              </div>
+                              <div class="clr-white mt-1">
+                                Tất cả các câu hỏi thường gặp
+                              </div>
+                            </div>
+                            <!-- /.box box-contact -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <!-- /.um-sec-tour -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.main-content -->
+        </div>
+      </main>
+
+      <footer class="footer" id="footer">
+        <div class="footer-container">
+          <div class="footer-inner">
+            <div class="footer-top">
+              <div class="container">
+                <div class="footer-form-contact">
+                  <h4>Đăng ký nhận bản tin</h4>
+                  <form action="#">
+                    <div>
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Nhập địa chỉ email của bạn"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <button
+                          type="submit"
+                          class="btn clr-dark ff-semibold bg-secondary radius-0"
+                        >
+                          Đăng ký
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="footer-bot">
+              <div class="container">
+                <div class="footer-main">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                      <div class="footer-item footer-item-contact">
+                        <div class="footer-item-title mb-3">
+                          <h4
+                            class="heading title text-uppercase clr-secondary ff-bold"
+                          >
+                            Thông tin liên hệ
+                          </h4>
+                        </div>
+                        <ul class="custom-nav">
+                          <li>
+                            <p>
+                              <b>Địa chỉ:</b> 29 Nguyễn Đình Thi, Tây Hồ, Hà Nội
+                            </p>
+                          </li>
+                          <li>
+                            <p><b>Số điện thoại:</b> 097 980 05 88</p>
+                          </li>
+                          <li>
+                            <p><b>Email:</b> booking.tour@umove.com.vn</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-8 col-md-8">
+                      <div class="footer-item footer-menu quick-links">
+                        <ul class="menu">
+                          <li>
+                            <span class="noLink"> Về chúng tôi </span>
+                            <ul>
+                              <li>
+                                <a href="#">Câu chuyện của</a>
+                              </li>
+                              <li>
+                                <a href="./about-us.html">giới thiệu</a>
+                              </li>
+                              <li>
+                                <a href="./news.html">Blog</a>
+                              </li>
+                              <li>
+                                <a href="./events.html">Sự kiện</a>
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li>
+                            <span class="noLink"> Tư vấn của chuyên gia </span>
+                            <ul>
+                              <li>
+                                <a href="./course.html">Khóa học</a>
+                              </li>
+                              <li>
+                                <a href="#">Làm việc tại</a>
+                              </li>
+                              <li>
+                                <a href="#">Blog</a>
+                              </li>
+                              <li>
+                                <a href="#">Hợp tác với</a>
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li>
+                            <span class="noLink">Hỗ trợ khách hàng</span>
+                            <ul>
+                              <li>
+                                <a href="#">Câu chuyện của</a>
+                              </li>
+                              <li>
+                                <a href="#">Làm việc tại</a>
+                              </li>
+                              <li>
+                                <a href="#">Blog</a>
+                              </li>
+                              <li>
+                                <a href="#">Hợp tác với</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="h-line mt-3 mb-3"></div>
+
+                <div class="footer-sub">
+                  <ul class="custom-nav">
+                    <li>
+                      <img
+                        src="../img/img-3.png"
+                        class="img-responsive"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="../img/img-2.png"
+                        class="img-responsive"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="../img/img-1.png"
+                        class="img-responsive"
+                        alt=""
+                      />
+                    </li>
+                  </ul>
+
+                  <ul
+                    class="nav-sci"
+                    style="--color: #ffffff99; --border-color: #ffffff99"
+                  >
+                    <li>
+                      <a href="# " rel="nofollow ">
+                        <i class="fab fa-linkedin-in fa-fw"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="# " rel="nofollow ">
+                        <i class="fab fa-instagram fa-fw"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="# " rel="nofollow ">
+                        <i class="fab fa-facebook-f fa-fw"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="# " rel="nofollow ">
+                        <i class="fab fa-youtube fa-fw"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="h-line mt-3 mb-3"></div>
+
+                <div class="copy-right">
+                  <p>© 2022. All Rights Reserved</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
     <!-- jQuery js -->
     <script src="../libs/jQuery/jquery.min.js" defer></script>
     <!-- bootstrap js -->
@@ -76,7 +1650,9 @@
     ></script>
     <!-- select2 js -->
     <script src="../libs/select2/select2.full.min.js" defer></script>
+    <!-- scripts js -->
+    <script src="../js/scripts.js" defer></script>
     <!-- app js -->
-    <script src="./js/app.js" defer></script>
+    <script src="../js/app.js" defer></script>
   </body>
 </html>

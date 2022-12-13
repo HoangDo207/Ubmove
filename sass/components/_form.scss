@@ -1,0 +1,135 @@
+.form-group {
+  position: relative;
+  label {
+    display: block;
+  }
+  .input-group {
+    position: relative;
+    width: 100%;
+
+    // display: flex;
+    .icon {
+      position: absolute;
+      width: 36px;
+      height: 36px;
+      left: 0;
+      top: 0;
+      @include flexCenter;
+      font-size: 16px;
+      z-index: 5;
+    }
+    &-right {
+      .icon {
+        right: 0px;
+      }
+      .form-control {
+        padding-right: 36px;
+      }
+    }
+    .form-control {
+      border: 0px !important;
+      padding-left: 36px;
+      background-color: transparent !important;
+    }
+  }
+  .form-control {
+    box-shadow: unset;
+    height: 36px;
+    background: #f7f7f7;
+    border: 1px solid #e6e6e6;
+    border-radius: 0px;
+  }
+
+  textarea.form-control {
+    height: 88px;
+    resize: vertical;
+  }
+
+  .select2-container--default
+    .select2-selection--single
+    .select2-selection__rendered {
+    line-height: 36px;
+  }
+
+  .select2-container .select2-selection--single,
+  .select2-container--default
+    .select2-selection--single
+    .select2-selection__arrow {
+    height: 36px;
+  }
+
+  .select2-container--default .select2-selection--single {
+    border-radius: 0px;
+    border: 0px;
+  }
+}
+
+.search-main {
+  position: relative;
+  background-color: rgba($color: #000000, $alpha: 0.6);
+  padding: 12px 24px 12px 16px;
+  &-inner {
+    form {
+      & > div {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        .form-group {
+          width: 100%;
+          margin-bottom: 0px !important;
+          .input-group {
+            background-color: #fff;
+          }
+          .form-control {
+            background-color: #fff !important;
+            border: 0px !important;
+          }
+        }
+        .form-action {
+          margin-left: 16px;
+          & > .btn {
+            font-family: var(--font-primary-semiBold);
+            width: 86px;
+            height: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.custom-drop {
+  position: relative;
+  &::after {
+    content: "\f107";
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    font-size: 18px;
+    translate: -50% -50%;
+    color: #000;
+    font-family: fontAwesome;
+  }
+  ul {
+    position: absolute;
+    left: 0;
+    top: 110%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+    // margin-top: 10px;
+    padding: 16px;
+    z-index: 9;
+    li {
+      list-style: none;
+      a {
+        display: block;
+        padding: 4px;
+      }
+      &:hover a {
+        background-color: #f7f7f7;
+      }
+    }
+  }
+}

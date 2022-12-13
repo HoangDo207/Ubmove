@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>U Move</title>
+    <!-- bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <!-- google icon css -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- owl carousel css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.min.css"
+    />
+    <!-- light slider css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css"
+    />
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- magnific popup css -->
+    <link
+      rel="stylesheet"
+      href="../../libs/magnific-popup/magnific-popup.css"
+    />
+    <!-- font-awesome css -->
+    <link rel="stylesheet" href="../../libs/font-awesome/css/all.css" />
+    <!-- animate css -->
+    <link rel="stylesheet " href="../../libs/animate-css/animate.css" />
+    <!-- animate css -->
+    <link rel="stylesheet " href="../../libs/select2/select2.min.css" />
+    <!-- app css -->
+    <link rel="stylesheet" href="../../css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper-app">
+      <header class="header" id="header">
+        <div class="header-container">
+          <div class="header-inner">
+            <div class="header-top">
+              <div class="container">
+                <div class="inner">
+                  <div class="header-top-left">
+                    <ul class="custom-nav">
+                      <li>
+                        <a href="#">Khóa huấn luyện</a>
+                      </li>
+                      <li>
+                        <a href="#">Sự kiện</a>
+                      </li>
+                      <li>
+                        <a href="#">Blog</a>
+                      </li>
+                      <li>
+                        <a href="#">Liên hệ</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="header-top-right">
+                    <div class="header-language">
+                      <div class="dropdown">
+                        <div
+                          class="toggle-language"
+                          id="dropdownLanguageButton"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                        >
+                          <img
+                            src="../img/flag-vn.png"
+                            class="img-responsive"
+                            alt=""
+                          />
+                          <i class="fa-light fa-angle-down"></i>
+                        </div>
+                        <div
+                          class="dropdown-menu"
+                          aria-labelledby="dropdownLanguageButton"
+                        >
+                          <a class="dropdown-item" href="#"
+                            ><img src="../img/flag-vn.png" alt=""
+                          /></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="header-main">
+              <div class="container">
+                <div class="inner">
+                  <div class="header-logo">
+                    <a href="./index.html">
+                      <h1>
+                        <img
+                          src="../img/logo.png"
+                          class="img-responsive"
+                          width="78"
+                          alt=""
+                        />
+                      </h1>
+                    </a>
+                  </div>
+
+                  <div class="header-search">
+                    <form action="#">
+                      <div>
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Tìm kiếm cuộc hành trình của bạn"
+                          />
+                        </div>
+
+                        <div class="form-actions">
+                          <button class="btn">
+                            <i class="fa-light fa-magnifying-glass"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                  <div class="header-utils">
+                    <div class="hotline">
+                      <a href="#">
+                        <img
+                          src="../img/icons/phone-calling-black.svg"
+                          alt=""
+                        />
+                        <span>096 929 223 - 0979 800 588</span>
+                      </a>
+                    </div>
+
+                    <div class="clr-gray-light">|</div>
+
+                    <div class="block-user">
+                      <a href="#"
+                        ><i class="fa-light fa-user"></i>
+                        <span>Đăng nhập</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="header-navigator">
+              <div class="container">
+                <div class="inner">
+                  <ul class="menu">
+                    <li>
+                      <a href="./locations.html">Địa điểm</a>
+                    </li>
+                    <li>
+                      <a href="./activate.html">Hoạt động</a>
+                    </li>
+                    <li>
+                      <a href="./discover.html">Khám phá đặc biệt</a>
+                    </li>
+                    <li>
+                      <a href="./schedule.html">Thời gian khởi hành</a>
+                    </li>
+                    <li>
+                      <a href="./promotions.html">Khuyến mãi</a>
+                    </li>
+                    <li>
+                      <a href="./q-a.html">Thông tin & hỏi đáp</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="header-bot">
+              <div class="container">
+                <div class="inner">
+                  <div class="swiper campaignPromotion">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="text clr-white text-center ff-medium">
+                          Bạn đã sẵn sàng đặt chuyến phiêu lưu tiếp theo và
+                          không muốn chờ đợi?
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="text clr-white text-center ff-medium">
+                          Bạn đã sẵn sàng đặt chuyến phiêu lưu tiếp theo và
+                          không muốn chờ đợi?
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next">
+                      <i class="fa-light fa-angle-right"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                      <i class="fa-light fa-angle-left"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main" id="main">
+        <div class="warper-content">
+          <div class="main-content">
+            <div class="banner">
+              <div class="banner-container">
+                <div id="main-slider">
+                  <div class="owl-carousel owl-theme main-slider">
+                    <div class="item">
+                      <img
+                        src="../img/banner-img-3.png"
+                        class="img-responsive"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="banner-text">
+                  <div class="container">
+                    <div class="heading heading-primary clr-white">
+                      Sự kiện Marathon Adventure Tour - Thách thức đa địa hình
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="um-event-introduce um-page-introduce">
+              <div class="container">
+                <div class="um-page-introduce-content">
+                  <div class="um-page-introduce-item">
+                    <label for=""> Ngày đua </label>
+                    <div>01-02/04/2023</div>
+                  </div>
+                  <div class="um-page-introduce-item ml-4">
+                    <label for=""> Loại hình </label>
+                    <div>Trail</div>
+                  </div>
+                  <div class="um-page-introduce-item ml-4">
+                    <label for=""> Cự ly </label>
+                    <div>100KM , Menard 70KM , 42KM , Menard 25KM ,10KM</div>
+                  </div>
+                  <div class="um-page-introduce-item ml-auto">
+                    <label for=""> Chi phí </label>
+                    <div>3.450.000 VNĐ</div>
+                  </div>
+                  <div class="um-page-introduce-item ml-3">
+                    <a
+                      href="#"
+                      class="btn btn-icon bg-secondary clr-dark radius-0 ff-semibold"
+                    >
+                      <span class="icon"
+                        ><i class="fa-solid fa-pen-line"></i
+                      ></span>
+                      <span>Đăng ký tham gia</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="custom-breadcrumb">
+              <div class="container">
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                      <a href="#">Trang chủ</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                      <a href="#">Danh sách khóa huấn luyện</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                      Chi tiết sự kiện
+                    </li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+
+            <div class="page page-event">
+              <div class="page-container container">
+                <div class="page-inner">
+                  <div class="um-event-detail">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <aside class="um-sidebar">
+                          <div class="inner pt-3 pb-3">
+                            <div class="nav-icons">
+                              <ul class="psy-pane">
+                                <li>
+                                  <a href="#um-summary" class="psy-link active">
+                                    <span class="icon"
+                                      ><img
+                                        src="../img/icons/sb-icon-1.svg"
+                                        alt=""
+                                    /></span>
+                                    <span class="text">Mô tả</span>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#um-schedule" class="psy-link">
+                                    <span class="icon"
+                                      ><img
+                                        src="../img/icons/sb-icon-2.svg"
+                                        alt=""
+                                    /></span>
+                                    <span class="text">Lịch trình</span>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#um-road" class="psy-link">
+                                    <span class="icon"
+                                      ><img
+                                        src="../img/icons/sb-icon-3.svg"
+                                        alt=""
+                                    /></span>
+                                    <span class="text">Cung đường</span>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#um-fare" class="psy-link">
+                                    <span class="icon"
+                                      ><img
+                                        src="../img/icons/sb-icon-4.svg"
+                                        alt=""
+                                    /></span>
+                                    <span class="text">Giá vé</span>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#um-benefit" class="psy-link">
+                                    <span class="icon"
+                                      ><img
+                                        src="../img/icons/sb-icon-5.svg"
+                                        alt=""
+                                    /></span>
+                                    <span class="text">Quền lợi VĐV</span>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#um-awards" class="psy-link">
+                                    <span class="icon"
+                                      ><img
+                                        src="../img/icons/sb-icon-6.svg"
+                                        alt=""
+                                    /></span>
+                                    <span class="text">Gải thưởng</span>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#um-tutorial" class="psy-link">
+                                    <span class="icon"
+                                      ><img
+                                        src="../img/icons/sb-icon-7.svg"
+                                        alt=""
+                                    /></span>
+                                    <span class="text">Hướng dẫn tham gia</span>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#um-regulations" class="psy-link">
+                                    <span class="icon"
+                                      ><img
+                                        src="../img/icons/sb-icon-8.svg"
+                                        alt=""
+                                    /></span>
+                                    <span class="text">Quy định</span>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#um-tools" class="psy-link">
+                                    <span class="icon"
+                                      ><img
+                                        src="../img/icons/sb-icon-9.svg"
+                                        alt=""
+                                    /></span>
+                                    <span class="text">Dụng cụ bắt buộc</span>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#um-result" class="psy-link">
+                                    <span class="icon"
+                                      ><img
+                                        src="../img/icons/sb-icon-10.svg"
+                                        alt=""
+                                    /></span>
+                                    <span class="text">Kết quả</span>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#um-photo" class="psy-link">
+                                    <span class="icon"
+                                      ><img
+                                        src="../img/icons/sb-icon-11.svg"
+                                        alt=""
+                                    /></span>
+                                    <span class="text">Hình ảnh</span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </aside>
+                      </div>
+                      <div class="col-md-9">
+                        <!-- um-summary -->
+                        <div class="um-block psy-section" id="um-summary">
+                          <div class="um-block-title">Mô tả</div>
+                          <div class="um-block-content">
+                            <p>
+                              Cuc Phuong Jungle Paths 2023 là giải chạy trail
+                              xuyên Vườn quốc gia và vùng đệm già nhất Việt Nam,
+                              chinh phục những cung đường băng qua 03 tỉnh Ninh
+                              Bình, Thanh Hóa và Hòa Bình. Mang theo thông điệp
+                              “Chạy để bảo tồn”, Cuc Phuong Jungle Paths 2023
+                              đặc biệt mong muốn thông qua giải chạy có thể lan
+                              tỏa tinh thần chung sức bảo tồn đa dạng sinh học
+                              tới cộng đồng chạy bộ nói riêng và toàn xã hội nói
+                              chung.
+                            </p>
+                          </div>
+                        </div>
+                        <!-- /.um-summary -->
+
+                        <!-- um-schedule -->
+                        <div class="um-block psy-section" id="um-schedule">
+                          <div class="um-block-title">Lịch trình</div>
+                          <div class="um-block-content">
+                            <div class="um-schedule">
+                              <div class="um-schedule-item">
+                                <div class="title ff-semibold clr-dark">
+                                  Ngày 1: NGÀY 29/03/2023 - EXPO DAY
+                                </div>
+                                <div class="mt-2">
+                                  <ul>
+                                    <li>
+                                      <div class="text">
+                                        <p>
+                                          <b>Từ 9:00 - 20:00:</b> Mở cửa khu vực
+                                          nhận race kit
+                                        </p>
+                                        <p>
+                                          <b>Địa điểm:</b> Hà Nội (địa điểm sẽ
+                                          cập nhật sau)
+                                        </p>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+
+                              <div class="um-schedule-item">
+                                <div class="title ff-semibold clr-dark">
+                                  Ngày 2: NGÀY 29/03/2023 - EXPO DAY
+                                </div>
+                                <div class="mt-2">
+                                  <ul>
+                                    <li>
+                                      <div class="text">
+                                        <p>
+                                          <b>Từ 9:00 - 20:00:</b> Mở cửa khu vực
+                                          nhận race kit
+                                        </p>
+                                        <p>
+                                          <b>Địa điểm:</b> Hà Nội (địa điểm sẽ
+                                          cập nhật sau)
+                                        </p>
+                                      </div>
+                                    </li>
+
+                                    <li>
+                                      <div class="text">
+                                        <p>
+                                          <b>Từ 9:00 - 20:00:</b> Mở cửa khu vực
+                                          nhận race kit
+                                        </p>
+                                        <p>
+                                          <b>Địa điểm:</b> Hà Nội (địa điểm sẽ
+                                          cập nhật sau)
+                                        </p>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.um-schedule -->
+
+                        <!-- um-road -->
+                        <div class="um-block psy-section" id="um-road">
+                          <div class="um-block-title">Cung đường</div>
+                          <div class="um-block-content">
+                            <p><b>Cự ly 10KM</b></p>
+                            <ul>
+                              <li>
+                                Xuất phát tại khu Hồ Mạc lúc 09:30 ngày
+                                02/04/2023, các VĐV sẽ có 06 tiếng để hoàn thành
+                                cuộc đua.
+                              </li>
+                              <li>
+                                Xuất phát tại khu Hồ Mạc lúc 09:30 ngày
+                                02/04/2023, các VĐV sẽ có 06 tiếng để hoàn thành
+                                cuộc đua.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <!-- /.um-road -->
+
+                        <!-- um-fare -->
+                        <div class="um-block psy-section" id="um-fare">
+                          <div class="um-block-title">Giá vé</div>
+                          <div class="um-block-content">
+                            <p>
+                              <img
+                                src="../img/image-1.png"
+                                class="img-responsive"
+                                alt=""
+                              />
+                            </p>
+                            <ul>
+                              <li>
+                                Xuất phát tại khu Hồ Mạc lúc 09:30 ngày
+                                02/04/2023, các VĐV sẽ có 06 tiếng để hoàn thành
+                                cuộc đua.
+                              </li>
+                              <li>
+                                Xuất phát tại khu Hồ Mạc lúc 09:30 ngày
+                                02/04/2023, các VĐV sẽ có 06 tiếng để hoàn thành
+                                cuộc đua.
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <!-- /.um-fare -->
+
+                        <!-- um-benefit -->
+                        <div class="um-block psy-section" id="um-benefit">
+                          <div class="um-block-title">
+                            Quyền lợi vận động viên
+                          </div>
+                          <div class="um-block-content">
+                            <p>
+                              <img
+                                src="../img/image-2.png"
+                                class="img-responsive"
+                                alt=""
+                              />
+                            </p>
+                          </div>
+                        </div>
+                        <!-- /.um-benefit -->
+
+                        <!-- um-awards -->
+                        <div class="um-block psy-section" id="um-awards">
+                          <div class="um-block-title">Giải thưởng</div>
+                          <div class="um-block-content">
+                            <div class="ff-semibold">
+                              <p>
+                                Xem thêm thông tin tại:
+                                <a href="#" class="clr-dark text-underline">
+                                  CUC PHUONG JUNGLE PATHS 2023 – RJ
+                                  (racejungle.com)</a
+                                >
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.um-awards -->
+
+                        <!-- um-tutorial -->
+                        <div class="um-block psy-section" id="um-tutorial">
+                          <div class="um-block-title">Hướng dẫn</div>
+                          <div class="um-block-content">
+                            <p><b>I. ĐĂNG KÝ THAM GIA</b></p>
+                            <p>1.Hướng dẫn mua BIB</p>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur,
+                              adipisicing elit. Molestias, incidunt debitis! Aut
+                              officia perferendis tenetur eos non delectus
+                              eveniet fuga at quos voluptas quisquam, aliquam
+                              vero nemo esse veniam ea!
+                            </p>
+                          </div>
+                        </div>
+                        <!-- /.um-tutorial -->
+
+                        <!-- um-regulations -->
+                        <div class="um-block psy-section" id="um-regulations">
+                          <div class="um-block-title">Quy định</div>
+                          <div class="um-block-content">
+                            <p><b>I. ĐĂNG KÝ THAM GIA</b></p>
+                            <p>1.Hướng dẫn mua BIB</p>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur,
+                              adipisicing elit. Molestias, incidunt debitis! Aut
+                              officia perferendis tenetur eos non delectus
+                              eveniet fuga at quos voluptas quisquam, aliquam
+                              vero nemo esse veniam ea!
+                            </p>
+                          </div>
+                        </div>
+                        <!-- /.um-regulations -->
+
+                        <!-- um-tools -->
+                        <div class="um-block psy-section" id="um-tools">
+                          <div class="um-block-title">Dụng cụ cần thiết</div>
+                          <div class="um-block-content">
+                            <p>
+                              <img
+                                src="../img/image-3.png"
+                                class="img-responsive"
+                                alt=""
+                              />
+                            </p>
+                          </div>
+                        </div>
+                        <!-- /.um-tools -->
+
+                        <!-- um-result -->
+                        <div class="um-block psy-section" id="um-result">
+                          <div class="um-block-title">Kết quả</div>
+                          <div class="um-block-content">
+                            <p>
+                              <b>2022:</b>
+                              <a href="#" class="clr-dark text-underline">
+                                Cuc Phuong Jungle Paths 2022</a
+                              >
+                            </p>
+                          </div>
+                        </div>
+                        <!-- /.um-result -->
+
+                        <!-- um-photo -->
+                        <div class="um-block psy-section" id="um-photo">
+                          <div class="um-block-title">Hình ảnh</div>
+                          <div class="um-block-content">
+                            <div class="slider-cover">
+                              <div class="owl-carousel owl-theme event-slider">
+                                <div class="item">
+                                  <a href="#"
+                                    ><img src="../img/event-img-1.png" alt=""
+                                  /></a>
+                                </div>
+                                <div class="item">
+                                  <a href="#"
+                                    ><img src="../img/event-img-2.png" alt=""
+                                  /></a>
+                                </div>
+                                <div class="item">
+                                  <a href="#"
+                                    ><img src="../img/event-img-2.png" alt=""
+                                  /></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.um-photo -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer" id="footer">
+        <div class="footer-container">
+          <div class="footer-inner">
+            <div class="footer-top">
+              <div class="container">
+                <div class="footer-form-contact">
+                  <h4>Đăng ký nhận bản tin</h4>
+                  <form action="#">
+                    <div>
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Nhập địa chỉ email của bạn"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <button
+                          type="submit"
+                          class="btn clr-dark ff-semibold bg-secondary radius-0"
+                        >
+                          Đăng ký
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="footer-bot">
+              <div class="container">
+                <div class="footer-main">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                      <div class="footer-item footer-item-contact">
+                        <div class="footer-item-title mb-3">
+                          <h4
+                            class="heading title text-uppercase clr-secondary ff-bold"
+                          >
+                            Thông tin liên hệ
+                          </h4>
+                        </div>
+                        <ul class="custom-nav">
+                          <li>
+                            <p>
+                              <b>Địa chỉ:</b> 29 Nguyễn Đình Thi, Tây Hồ, Hà Nội
+                            </p>
+                          </li>
+                          <li>
+                            <p><b>Số điện thoại:</b> 097 980 05 88</p>
+                          </li>
+                          <li>
+                            <p><b>Email:</b> booking.tour@umove.com.vn</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-8 col-md-8">
+                      <div class="footer-item footer-menu quick-links">
+                        <ul class="menu">
+                          <li>
+                            <span class="noLink"> Về chúng tôi </span>
+                            <ul>
+                              <li>
+                                <a href="#">Câu chuyện của</a>
+                              </li>
+                              <li>
+                                <a href="#">Làm việc tại</a>
+                              </li>
+                              <li>
+                                <a href="#">Blog</a>
+                              </li>
+                              <li>
+                                <a href="#">Hợp tác với</a>
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li>
+                            <span class="noLink"> Tư vấn của chuyên gia </span>
+                            <ul>
+                              <li>
+                                <a href="#">Câu chuyện của</a>
+                              </li>
+                              <li>
+                                <a href="#">Làm việc tại</a>
+                              </li>
+                              <li>
+                                <a href="#">Blog</a>
+                              </li>
+                              <li>
+                                <a href="#">Hợp tác với</a>
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li>
+                            <span class="noLink">Hỗ trợ khách hàng</span>
+                            <ul>
+                              <li>
+                                <a href="#">Câu chuyện của</a>
+                              </li>
+                              <li>
+                                <a href="#">Làm việc tại</a>
+                              </li>
+                              <li>
+                                <a href="#">Blog</a>
+                              </li>
+                              <li>
+                                <a href="#">Hợp tác với</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="h-line mt-3 mb-3"></div>
+
+                <div class="footer-sub">
+                  <ul class="custom-nav">
+                    <li>
+                      <img
+                        src="../img/img-3.png"
+                        class="img-responsive"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="../img/img-2.png"
+                        class="img-responsive"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="../img/img-1.png"
+                        class="img-responsive"
+                        alt=""
+                      />
+                    </li>
+                  </ul>
+
+                  <ul
+                    class="nav-sci"
+                    style="--color: #ffffff99; --border-color: #ffffff99"
+                  >
+                    <li>
+                      <a href="# " rel="nofollow ">
+                        <i class="fab fa-linkedin-in fa-fw"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="# " rel="nofollow ">
+                        <i class="fab fa-instagram fa-fw"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="# " rel="nofollow ">
+                        <i class="fab fa-facebook-f fa-fw"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="# " rel="nofollow ">
+                        <i class="fab fa-youtube fa-fw"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="h-line mt-3 mb-3"></div>
+
+                <div class="copy-right">
+                  <p>© 2022. All Rights Reserved</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- jQuery js -->
+    <script src="../libs/jQuery/jquery.min.js" defer></script>
+    <!-- bootstrap js -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      defer
+    ></script>
+    <!-- owl carousel js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.min.js"
+      defer
+    ></script>
+    <!-- lights slider js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"
+      defer
+    ></script>
+    <!-- swiper js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+      defer
+    ></script>
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    <!-- magnific js -->
+    <script
+      src="../libs/magnific-popup/jquery.magnific-popup.min.js"
+      defer
+    ></script>
+    <!-- select2 js -->
+    <script src="../libs/select2/select2.full.min.js" defer></script>
+    <!-- app js -->
+    <script src="../../js/scripts.js" defer></script>
+    <!-- app js -->
+    <script src="../../js/app.js" defer></script>
+  </body>
+</html>

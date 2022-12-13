@@ -41,8 +41,7 @@
       display: flex;
       flex-wrap: wrap;
       align-items: flex-start;
-      justify-content: space-around;
-      gap: 3.2rem;
+      gap: 48px;
     }
     li {
       list-style: none;
@@ -94,6 +93,7 @@
         border-color: transparent;
         .icon {
           @include flexCenter;
+          font-size: 16px;
         }
         &.active {
           background-color: #f2f2f2;
@@ -108,3 +108,43 @@
   }
 }
 /* ----------- /.Icons Nav ----------- */
+
+.nav-inline {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* ----------- /.Tabs Nav ----------- */
+.tabs-custom {
+  position: relative;
+  width: 100%;
+
+  ul {
+    background-color: #f2f2f2;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    li {
+      a {
+        display: block;
+        background-color: transparent;
+        font-family: var(--font-primary-semiBold);
+        font-size: 18px;
+        line-height: 16px;
+        padding: 8px 16px;
+        color: var(--clr-gray);
+        text-align: center;
+        text-decoration: none;
+      }
+      &.active {
+        a {
+          background-color: #fff;
+          color: var(--clr-dark);
+        }
+      }
+    }
+  }
+}
+
+/* ----------- /.Tabs Nav ----------- */

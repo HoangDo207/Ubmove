@@ -20,4 +20,9 @@
     align-items: center;
     gap: 8px;
   }
+  &-border {
+    border-width: 1px !important;
+    border-style: solid !important;
+    padding: 11px 16px;
+  }
 }

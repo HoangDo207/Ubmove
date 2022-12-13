@@ -13,18 +13,36 @@
 //import file from layout
 @import "layout/footer";
 @import "layout/header";
+@import "layout/banner";
 @import "layout/sidebar";
+@import "layout/sections";
+@import "layout/comment";
 
 //import file from element
 @import "element/tour";
+@import "element/user";
 
 //import file from components
 @import "components/box";
+@import "components/button";
 @import "components/card";
 @import "components/nav";
 @import "components/form";
 @import "components/table";
 @import "components/badge";
+@import "components/breadcrumb";
+@import "components/pagination";
+@import "components/modal";
 
 //import file from pages
 @import "pages/home";
+@import "pages/q-a";
+@import "pages/promotions";
+@import "pages/news";
+@import "pages/events";
+@import "pages/page-re-log";
+@import "pages/tours";
+@import "pages/oder";
+@import "pages/create-tour";
+
+@import "pages/user";
